@@ -1,10 +1,10 @@
-﻿using System.Security.Cryptography;
+﻿using Exercicio09_Enums;
 
 Console.WriteLine("Exercicio 3");
 
 
-Carro chevrolet = new Carro("Sedan", "Chevrolet", "Onix", 2016, 110);
-Carro ford = new Carro("Suv", "Ford", "EcoSport", 2016, 110);
+Carro chevrolet = new Carro("Sedan", "Chevrolet", "Onix", 2016, 110, 1);
+Carro ford = new Carro("Suv", "Ford", "EcoSport", 2016, 110, 1);
 
 Console.WriteLine();
 chevrolet.Acelerar(chevrolet.Marca);
@@ -24,9 +24,13 @@ double potencia = ford.AumentarPotenciaVelocidade(30, out double velocidade);
 Console.WriteLine(potencia);
 
 
-ford.ExibirInfo("ferrari", "chevrolet", "nike", 300);
-ford.ExibirInfo("ferrari", "chevrolet", "nike", 300, "2020");
 
+Console.WriteLine("Digite a cor desejada");
+int value = Convert.ToInt32(Console.ReadLine());
+
+var EnumCor = (Cores)value;
+
+ford.ExibirInfo("ferrari", "chevrolet", "nike", 300, "2020", ((int)EnumCor));
 
 Console.ReadKey();
 
@@ -37,14 +41,16 @@ public class Carro
     public string? Marca;
     public int Ano;
     public int Potencia;
+    public int Cor;
 
-    public Carro(string? modelo, string? montadora, string? marca, int ano, int potencia)
+    public Carro(string? modelo, string? montadora, string? marca, int ano, int potencia, int cor)
     {
-        Modelo = modelo;
+        Modelo = modelo;        
         Montadora = montadora;
         Marca = marca;
         Ano = ano;
         Potencia = potencia;
+        Cor = cor;
     }
 
     public Carro(string? modelo, string? montadora)
@@ -81,7 +87,7 @@ public class Carro
         return potencia;
     }
 
-    public void ExibirInfo(string modelo, string montadora, string marca, int potencia, string ano = "2003")
+    public void ExibirInfo(string modelo, string montadora, string marca, int potencia, string ano = "2003", int EnumCor = 1)
     {
 
     }
