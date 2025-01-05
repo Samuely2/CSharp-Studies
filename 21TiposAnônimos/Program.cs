@@ -7,7 +7,7 @@ var aluno = new
 {
     Id = 1,
     Nome = "Samuel",
-    Email = "Samuelviniciusoficial@gmail.com"
+    Email = "Samuelviniciusoficial@gmail.com",
 
     Endereco = new { Id = 1, Cidade = "Santos", Pais = "Brasil" }
 };
