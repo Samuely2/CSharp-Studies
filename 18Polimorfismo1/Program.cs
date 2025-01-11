@@ -10,6 +10,5 @@ foreach(var figura in figuras)
 {
     figura.Desenhar(); // Executando os métodos das classes derivadas a partir da classe base, fazendo isso em tempo de execução.
 }
-//teste
 
 Console.ReadKey();
