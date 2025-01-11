@@ -9,6 +9,6 @@ var figuras = new List<Figura> // Lista de figura do tipo figura.
 foreach(var figura in figuras)
 {
     figura.Desenhar(); // Executando os métodos das classes derivadas a partir da classe base, fazendo isso em tempo de execução.
-}
+}//tesee
 
 Console.ReadKey();
