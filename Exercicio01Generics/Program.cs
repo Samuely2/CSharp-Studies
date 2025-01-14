@@ -1,9 +1,9 @@
 ﻿using System.Linq.Expressions;
 
 string input = "(1 + 2( * 3) - 4)";
+ 
 
-
-bool balanceada = EstaBalanceada(input);
+bool balanceada = EstaBalanceada(input); 
 
 Console.WriteLine($"A expressão matemática {input} é {(balanceada ?
  "esta balanceada" : "não esta balanceada")}.");
