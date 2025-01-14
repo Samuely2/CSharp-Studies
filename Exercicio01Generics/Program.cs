@@ -1,39 +1,38 @@
-﻿Stack<char> armazenarParanteses = new Stack<char>();
+﻿using System.Linq.Expressions;
 
-Console.WriteLine("Digite uma expressão matemática");
-string input = Console.ReadLine()!;
+string input = "(1 + 2( * 3) - 4)";
 
 
-for (int i = 0; i < input.Length; i++)
+bool balanceada = EstaBalanceada(input);
+
+Console.WriteLine($"A expressão matemática {input} é {(balanceada ?
+ "esta balanceada" : "não esta balanceada")}.");
+
+static bool EstaBalanceada(string input)
 {
-    char caractere = input[i];
-    if (caractere.Equals('(') || caractere.Equals('{') || caractere.Equals('['))
+    Stack<char> armazenarParanteses = new Stack<char>();
+    foreach (char caractere in input)
     {
-        armazenarParanteses.Push(caractere);
-    }
-    else if (caractere.Equals(')') || caractere.Equals('}') || caractere.Equals(']'))
-    {
-        if (armazenarParanteses.Count > 0)
+        if (caractere.Equals('(') || caractere.Equals('{') || caractere.Equals('['))
         {
-            var parentesesAberto = armazenarParanteses.FirstOrDefault(c => armazenarParanteses.Contains('[') ||
-                                   armazenarParanteses.Contains('(') | armazenarParanteses.Contains('{'));
-
-            var parentesesFechado = armazenarParanteses.FirstOrDefault(c => armazenarParanteses.Contains(']') ||
-                                   armazenarParanteses.Contains(')') | armazenarParanteses.Contains('}'));
-            if (parentesesAberto.Equals(parentesesFechado))
-            {
-                var lastParenteses = armazenarParanteses.FirstOrDefault(c => c.Equals('(') || c.Equals('[') || c.Equals('{'));
-                armazenarParanteses.Pop().Equals(lastParenteses);
-            }
+            armazenarParanteses.Push(caractere);
         }
+        else if (caractere.Equals(')') || caractere.Equals('}') || caractere.Equals(']'))
+        {
+            if (armazenarParanteses.Count == 0)
+            {
+                return false;
+            }
+            char lastParenteses = armazenarParanteses.Pop();
+
+            if ((caractere == ')' && lastParenteses != '(') ||
+                (caractere == '}' && lastParenteses != '{') ||
+                (caractere == ']' && lastParenteses != '['))
+            {
+                return false;
+            }
+        }    
     }
-    i++;
+    return armazenarParanteses.Count == 0;
 }
-if (armazenarParanteses.Count == 0)
-{
-    Console.WriteLine("A expressão matemática contém parênteses balanceados");
-}
-else
-{
-    Console.WriteLine("A expressão não é balanceada");
-}
+
