@@ -261,6 +261,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12EventHandler", "12EventHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13EventHandlerDados", "13EventHandlerDados\13EventHandlerDados.csproj", "{6D45CFE1-7961-4ED6-B0E2-ADAFA1BFE749}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14MetodosDeExtensao", "14MetodosDeExtensao\14MetodosDeExtensao.csproj", "{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -739,6 +741,10 @@ Global
 		{6D45CFE1-7961-4ED6-B0E2-ADAFA1BFE749}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D45CFE1-7961-4ED6-B0E2-ADAFA1BFE749}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D45CFE1-7961-4ED6-B0E2-ADAFA1BFE749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -867,6 +873,7 @@ Global
 		{0E831750-C4FF-4396-BF8D-C14783B17BAE} = {76177E64-6DFD-4C6E-BDF0-4FEC7030C55A}
 		{12B12A26-FA95-41D3-8F85-97C893ED3079} = {76177E64-6DFD-4C6E-BDF0-4FEC7030C55A}
 		{6D45CFE1-7961-4ED6-B0E2-ADAFA1BFE749} = {76177E64-6DFD-4C6E-BDF0-4FEC7030C55A}
+		{7B5C13D8-5A0A-4D30-97DB-70C5F7560F4B} = {76177E64-6DFD-4C6E-BDF0-4FEC7030C55A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5CFA2B58-3AC0-49E9-AA0A-A22FF4473B3D}
