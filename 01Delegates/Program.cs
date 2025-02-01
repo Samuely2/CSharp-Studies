@@ -12,16 +12,16 @@ Console.WriteLine($"Soma = {resultado1}");
 
 // Definindo o método de destino, e ao método somar
 DelegateCalculadora calc2 = Calculadora.Somar;
-var resultado2 = calc(20, 30);
+var resultado2 = calc2(20, 30);
 Console.WriteLine($"Soma = {resultado2}");
 
 DelegateCalculadora calc3 = (float x, float y) => Calculadora.Somar(x, y);
-var resultado3 = calc(20, 30);
+var resultado3 = calc3(20, 30);
 Console.WriteLine($"Soma = {resultado3}");
 
 // Forma mais simples
 DelegateCalculadora calc4 = Calculadora.Somar;
-var resultado4 = calc(20, 30);
+var resultado4 = calc4(20, 30);
 Console.WriteLine($"Soma = {resultado1}");
 
 // Usando a mesma instância do delegate só que com o método dividir
