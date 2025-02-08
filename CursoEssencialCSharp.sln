@@ -267,17 +267,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15Linq", "15Linq\15Linq.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16LinqII", "16LinqII\16LinqII.csproj", "{72DBE1A3-6BC3-497F-8ADA-F6A67ADE08E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17LinqIII", "LinqIII\17LinqIII.csproj", "{0D651C71-575D-4B0D-9897-C29934573A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17LinqIII", "LinqIII\17LinqIII.csproj", "{0D651C71-575D-4B0D-9897-C29934573A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18LinqAgrupamento", "18LinqAgrupamento\18LinqAgrupamento.csproj", "{C861C073-5367-41D2-8CF8-C47D123B3466}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18LinqAgrupamento", "18LinqAgrupamento\18LinqAgrupamento.csproj", "{C861C073-5367-41D2-8CF8-C47D123B3466}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicios", "Exercicios", "{7B568478-BDD1-4D81-B4AC-61606C82E15C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio1-delegate", "exercicio1-delegate\exercicio1-delegate.csproj", "{F5F36A56-D197-48F6-83FE-CAFC2A1823DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio1-delegate", "exercicio1-delegate\exercicio1-delegate.csproj", "{F5F36A56-D197-48F6-83FE-CAFC2A1823DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio02-delegate", "exercicio02-delegate\exercicio02-delegate.csproj", "{6D7157D0-1287-46B9-ABCE-B761F33AA99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio02-delegate", "exercicio02-delegate\exercicio02-delegate.csproj", "{6D7157D0-1287-46B9-ABCE-B761F33AA99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio03-delegate", "exercicio03-delegate\exercicio03-delegate.csproj", "{D65AD429-3B2C-4CB7-847D-98E65B170949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio03-delegate", "exercicio03-delegate\exercicio03-delegate.csproj", "{D65AD429-3B2C-4CB7-847D-98E65B170949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio04-delegateAction", "exercicio04-delegateAction\exercicio04-delegateAction.csproj", "{7757D47E-15C9-4029-B604-40494DA0E3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -789,6 +791,10 @@ Global
 		{D65AD429-3B2C-4CB7-847D-98E65B170949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65AD429-3B2C-4CB7-847D-98E65B170949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D65AD429-3B2C-4CB7-847D-98E65B170949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7757D47E-15C9-4029-B604-40494DA0E3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7757D47E-15C9-4029-B604-40494DA0E3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7757D47E-15C9-4029-B604-40494DA0E3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7757D47E-15C9-4029-B604-40494DA0E3C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -926,6 +932,7 @@ Global
 		{F5F36A56-D197-48F6-83FE-CAFC2A1823DD} = {7B568478-BDD1-4D81-B4AC-61606C82E15C}
 		{6D7157D0-1287-46B9-ABCE-B761F33AA99C} = {7B568478-BDD1-4D81-B4AC-61606C82E15C}
 		{D65AD429-3B2C-4CB7-847D-98E65B170949} = {7B568478-BDD1-4D81-B4AC-61606C82E15C}
+		{7757D47E-15C9-4029-B604-40494DA0E3C6} = {7B568478-BDD1-4D81-B4AC-61606C82E15C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
