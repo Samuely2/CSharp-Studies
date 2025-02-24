@@ -303,6 +303,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06FileStream", "06FileStrea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07FileStreamUsing", "07FileStreamUsing\07FileStreamUsing.csproj", "{528B65D6-C5FF-45C5-9874-98DBDAB2EEFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08StreamExercicio", "08StreamExercicio\08StreamExercicio.csproj", "{A55F5CFD-1304-40FD-8ED4-50400B734997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -857,6 +859,10 @@ Global
 		{528B65D6-C5FF-45C5-9874-98DBDAB2EEFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{528B65D6-C5FF-45C5-9874-98DBDAB2EEFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{528B65D6-C5FF-45C5-9874-98DBDAB2EEFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55F5CFD-1304-40FD-8ED4-50400B734997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55F5CFD-1304-40FD-8ED4-50400B734997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55F5CFD-1304-40FD-8ED4-50400B734997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55F5CFD-1304-40FD-8ED4-50400B734997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1005,6 +1011,7 @@ Global
 		{337F410F-33F7-4F2E-80F9-BA8CA1414478} = {0F629EC4-B31F-4CD1-84EF-624CB42A5F59}
 		{DAC5569D-6ED2-46FD-9A55-9C6B08E1B388} = {0F629EC4-B31F-4CD1-84EF-624CB42A5F59}
 		{528B65D6-C5FF-45C5-9874-98DBDAB2EEFF} = {0F629EC4-B31F-4CD1-84EF-624CB42A5F59}
+		{A55F5CFD-1304-40FD-8ED4-50400B734997} = {0F629EC4-B31F-4CD1-84EF-624CB42A5F59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
