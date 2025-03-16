@@ -319,11 +319,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializaoBinariaObsoleta",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializacaoXML_", "SerializacaoXML_\SerializacaoXML_.csproj", "{228E6EBC-854B-494B-853B-A5B4063E0C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesserializacaoXML", "DesserializacaoXML\DesserializacaoXML.csproj", "{88958646-99B3-4498-882B-A101D6316C36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesserializacaoXML", "DesserializacaoXML\DesserializacaoXML.csproj", "{88958646-99B3-4498-882B-A101D6316C36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializacaoJson", "SerializacaoJson\SerializacaoJson.csproj", "{CCA94D4A-9C82-44C8-8170-6CC779BBED0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerializacaoJson", "SerializacaoJson\SerializacaoJson.csproj", "{CCA94D4A-9C82-44C8-8170-6CC779BBED0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesserializacaoJSON", "DesserializacaoJSON\DesserializacaoJSON.csproj", "{D7F666EE-E86B-4324-BD72-315DD777D45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesserializacaoJSON", "DesserializacaoJSON\DesserializacaoJSON.csproj", "{D7F666EE-E86B-4324-BD72-315DD777D45F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programação Assíncrona", "Programação Assíncrona", "{22FC88EC-77E8-460A-A179-015113800F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgSincronaAssincrona", "ProgSincronaAssincrona\ProgSincronaAssincrona.csproj", "{4EF9A43E-0422-4395-BC16-199D66EFD6B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -915,6 +919,10 @@ Global
 		{D7F666EE-E86B-4324-BD72-315DD777D45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F666EE-E86B-4324-BD72-315DD777D45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F666EE-E86B-4324-BD72-315DD777D45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF9A43E-0422-4395-BC16-199D66EFD6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF9A43E-0422-4395-BC16-199D66EFD6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF9A43E-0422-4395-BC16-199D66EFD6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF9A43E-0422-4395-BC16-199D66EFD6B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1073,6 +1081,7 @@ Global
 		{88958646-99B3-4498-882B-A101D6316C36} = {22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}
 		{CCA94D4A-9C82-44C8-8170-6CC779BBED0A} = {22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}
 		{D7F666EE-E86B-4324-BD72-315DD777D45F} = {22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}
+		{4EF9A43E-0422-4395-BC16-199D66EFD6B5} = {22FC88EC-77E8-460A-A179-015113800F45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}

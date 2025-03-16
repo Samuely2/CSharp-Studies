@@ -10,4 +10,4 @@ var aluno = JsonSerializer.Deserialize<Aluno>(jsonContent);
 
 Console.WriteLine($"Aluno desserializado - ID: {aluno.Id}, Nome: {aluno.Name}, "+ $"Email: {aluno.Email}, Idade: {aluno.Idade}");
 
-Console.ReadKey();
+Console.ReadKey(); 
