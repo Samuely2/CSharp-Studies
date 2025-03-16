@@ -307,9 +307,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08StreamExercicio", "08Stre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicios", "Exercicios", "{956F8397-00A5-4A8A-81CF-DBC6451B8F1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio1-files", "exercicio1-files\exercicio1-files.csproj", "{8A50CDD7-DEF3-4103-B740-BE1BA07DC61F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio1-files", "exercicio1-files\exercicio1-files.csproj", "{8A50CDD7-DEF3-4103-B740-BE1BA07DC61F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio02-files", "exercicio02-files\exercicio02-files.csproj", "{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio02-files", "exercicio02-files\exercicio02-files.csproj", "{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "exercicio03-file", "exercicio03-file\exercicio03-file.csproj", "{CFFEEC75-F50B-40EB-92FE-D51D9708450F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serializacao & Desserializacao", "Serializacao & Desserializacao", "{22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializaoBinariaObsoleta", "SerializaoBinariaObsoleta\SerializaoBinariaObsoleta.csproj", "{4C7ADA7F-793D-4E8D-A83B-3D10F371E156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializacaoXML_", "SerializacaoXML_\SerializacaoXML_.csproj", "{228E6EBC-854B-494B-853B-A5B4063E0C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -877,6 +885,18 @@ Global
 		{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFEEC75-F50B-40EB-92FE-D51D9708450F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFEEC75-F50B-40EB-92FE-D51D9708450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFEEC75-F50B-40EB-92FE-D51D9708450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFEEC75-F50B-40EB-92FE-D51D9708450F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7ADA7F-793D-4E8D-A83B-3D10F371E156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7ADA7F-793D-4E8D-A83B-3D10F371E156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7ADA7F-793D-4E8D-A83B-3D10F371E156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7ADA7F-793D-4E8D-A83B-3D10F371E156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228E6EBC-854B-494B-853B-A5B4063E0C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228E6EBC-854B-494B-853B-A5B4063E0C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228E6EBC-854B-494B-853B-A5B4063E0C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228E6EBC-854B-494B-853B-A5B4063E0C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1029,6 +1049,9 @@ Global
 		{956F8397-00A5-4A8A-81CF-DBC6451B8F1F} = {0F629EC4-B31F-4CD1-84EF-624CB42A5F59}
 		{8A50CDD7-DEF3-4103-B740-BE1BA07DC61F} = {956F8397-00A5-4A8A-81CF-DBC6451B8F1F}
 		{64E4B3C7-0083-4CA8-AD55-FF15FAE3AAAB} = {956F8397-00A5-4A8A-81CF-DBC6451B8F1F}
+		{CFFEEC75-F50B-40EB-92FE-D51D9708450F} = {956F8397-00A5-4A8A-81CF-DBC6451B8F1F}
+		{4C7ADA7F-793D-4E8D-A83B-3D10F371E156} = {22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}
+		{228E6EBC-854B-494B-853B-A5B4063E0C87} = {22AEEBDB-7EC5-4C0F-9693-9D14A47DAFDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
