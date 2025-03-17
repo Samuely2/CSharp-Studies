@@ -333,6 +333,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ValueTask", "03ValueTask\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancel_", "TaskCancel_\TaskCancel_.csproj", "{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoException1", "TratamentoException1\TratamentoException1.csproj", "{F56C3817-183C-404F-839F-7FFE7A652EB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -935,6 +937,10 @@ Global
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1096,6 +1102,7 @@ Global
 		{4EF9A43E-0422-4395-BC16-199D66EFD6B5} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{03428B86-2B86-4C20-9316-E8D964073CA0} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F} = {22FC88EC-77E8-460A-A179-015113800F45}
+		{F56C3817-183C-404F-839F-7FFE7A652EB0} = {22FC88EC-77E8-460A-A179-015113800F45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
