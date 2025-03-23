@@ -327,13 +327,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesserializacaoJSON", "Dess
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programação Assíncrona", "Programação Assíncrona", "{22FC88EC-77E8-460A-A179-015113800F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgSincronaAssincrona", "ProgSincronaAssincrona\ProgSincronaAssincrona.csproj", "{4EF9A43E-0422-4395-BC16-199D66EFD6B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgSincronaAssincrona", "ProgSincronaAssincrona\ProgSincronaAssincrona.csproj", "{4EF9A43E-0422-4395-BC16-199D66EFD6B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ValueTask", "03ValueTask\03ValueTask.csproj", "{03428B86-2B86-4C20-9316-E8D964073CA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03ValueTask", "03ValueTask\03ValueTask.csproj", "{03428B86-2B86-4C20-9316-E8D964073CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancel_", "TaskCancel_\TaskCancel_.csproj", "{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCancel_", "TaskCancel_\TaskCancel_.csproj", "{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoException1", "TratamentoException1\TratamentoException1.csproj", "{F56C3817-183C-404F-839F-7FFE7A652EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoExcpetion", "TratamentoExcpetion\TratamentoExcpetion.csproj", "{5465D686-BD82-4BAE-AFED-178D787134EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoException2", "TratamentoException2\TratamentoException2.csproj", "{0DDEEA96-8556-4211-BB49-60C28E0BE910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -937,10 +939,14 @@ Global
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F56C3817-183C-404F-839F-7FFE7A652EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5465D686-BD82-4BAE-AFED-178D787134EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5465D686-BD82-4BAE-AFED-178D787134EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5465D686-BD82-4BAE-AFED-178D787134EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5465D686-BD82-4BAE-AFED-178D787134EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDEEA96-8556-4211-BB49-60C28E0BE910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDEEA96-8556-4211-BB49-60C28E0BE910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDEEA96-8556-4211-BB49-60C28E0BE910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDEEA96-8556-4211-BB49-60C28E0BE910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1102,7 +1108,8 @@ Global
 		{4EF9A43E-0422-4395-BC16-199D66EFD6B5} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{03428B86-2B86-4C20-9316-E8D964073CA0} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{F1DC7B85-40FF-45DA-ACD1-F7823EA9717F} = {22FC88EC-77E8-460A-A179-015113800F45}
-		{F56C3817-183C-404F-839F-7FFE7A652EB0} = {22FC88EC-77E8-460A-A179-015113800F45}
+		{5465D686-BD82-4BAE-AFED-178D787134EE} = {22FC88EC-77E8-460A-A179-015113800F45}
+		{0DDEEA96-8556-4211-BB49-60C28E0BE910} = {22FC88EC-77E8-460A-A179-015113800F45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
