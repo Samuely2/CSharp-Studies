@@ -339,6 +339,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoException2", "Tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TratamentoMultiplasExceptions", "TratamentoMultiplasExceptions\TratamentoMultiplasExceptions.csproj", "{EC1C793D-77B9-4685-9A3A-2C9C2ED16494}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgAssincrona_exercicio", "ProgAssincrona_exercicio\ProgAssincrona_exercicio.csproj", "{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -953,6 +955,10 @@ Global
 		{EC1C793D-77B9-4685-9A3A-2C9C2ED16494}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC1C793D-77B9-4685-9A3A-2C9C2ED16494}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC1C793D-77B9-4685-9A3A-2C9C2ED16494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1117,6 +1123,7 @@ Global
 		{5465D686-BD82-4BAE-AFED-178D787134EE} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{0DDEEA96-8556-4211-BB49-60C28E0BE910} = {22FC88EC-77E8-460A-A179-015113800F45}
 		{EC1C793D-77B9-4685-9A3A-2C9C2ED16494} = {22FC88EC-77E8-460A-A179-015113800F45}
+		{9367D6F5-2C1B-4AE0-8E4C-DE5188BBD48F} = {22FC88EC-77E8-460A-A179-015113800F45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5734F5DB-1384-413C-B9B6-F5D488A0F096}
